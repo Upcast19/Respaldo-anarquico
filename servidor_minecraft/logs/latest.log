@@ -1,0 +1,35 @@
+[01:20:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:20:22] [ServerMain/INFO]: Loaded 1174 recipes
+[01:20:23] [ServerMain/INFO]: Loaded 1271 advancements
+[01:20:23] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[01:20:23] [Server thread/INFO]: Loading properties
+[01:20:23] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[01:20:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:20:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:20:24] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[01:20:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[01:20:24] [Server thread/INFO]: Default game type: SURVIVAL
+[01:20:24] [Server thread/ERROR]: Encountered an unexpected exception
+java.net.UnknownHostException: lines-origin.gl.joinmc.link : Name or service not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at java.net.InetAddress.getByName(InetAddress.java:1568) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:249) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:20:24] [Server thread/ERROR]: This crash report has been saved to: /workspaces/Respaldo-anarquico/servidor_minecraft/./crash-reports/crash-2024-10-03_01.20.24-server.txt
+[01:20:24] [Server thread/INFO]: Stopping server
+[01:20:24] [Server thread/INFO]: Saving players
+[01:20:25] [Server thread/INFO]: Saving worlds
+[01:20:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:20:25] [Server thread/INFO]: Flushing Chunk IO
+[01:20:25] [Server thread/INFO]: Closing Thread Pool
+[01:20:25] [Server thread/INFO]: Closing Server

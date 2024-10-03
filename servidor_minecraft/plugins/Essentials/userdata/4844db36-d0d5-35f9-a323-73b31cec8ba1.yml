@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1727492718931
+  login: 1727492666909
+money: '0'
+last-account-name: Muessitl
+logoutlocation:
+  world: 7f3af815-2c98-46fa-832a-9414396c99f4
+  world-name: world_nether
+  x: 6.40594833686948
+  y: 129.0
+  z: -5.978979003429413
+  yaw: -162.79080200195312
+  pitch: 71.28958892822266
+lastlocation:
+  world: 7f3af815-2c98-46fa-832a-9414396c99f4
+  world-name: world_nether
+  x: 21.893802335262293
+  y: 128.0
+  z: -14.517568110227577
+  yaw: 139.78121948242188
+  pitch: -5.684720516204834
